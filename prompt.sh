@@ -63,7 +63,7 @@ set_ps1() {
   fi
 
   # < username >@< hostname > < current directory > [< git branch >|< ruby version >]
-  PS1="${debian_chroot:+($debian_chroot)}$user_str $dir_str $env_str\[$_sep_col\]$ \[$_txt_col\]"
+  PS1="${debian_chroot:+($debian_chroot)}$user_str:$dir_str $env_str\[$_sep_col\]$ \[$_txt_col\]"
 }
 
 # Set custom prompt
