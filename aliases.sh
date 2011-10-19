@@ -8,6 +8,10 @@
 # Aliases, functions & key bindings
 # -------------------------------------------------------
 
+# -- shortcuts
+alias work="cd ~/Projects/bpgames"
+alias serve="python -m 'SimpleHTTPServer'"
+
 # -- bash
 alias l='ls -Cv --group-directories-first'
 alias ll='ls -lv --group-directories-first'
@@ -15,6 +19,7 @@ alias la='ls -lvA --group-directories-first'
 
 alias _='sudo'
 alias n='nautilus .'
+alias tmux="tmux -2"
 
 alias ~='cd ~'
 alias -- -='cd -'
