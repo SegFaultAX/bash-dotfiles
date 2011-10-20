@@ -43,6 +43,19 @@ fi
 # Alias management (helper functions for ~/.bash_aliases)
 # ---------------------------------------------------------
 
+# Adds a directory, then cds into it
+# ------------------------------------------------
+function mkd() {
+  if [ -n "$1" ]; then
+    mkdir $1
+    cd $1
+    la
+  else
+    echo "Usage: mkd <directory name>"
+  fi
+}
+
+
 # Adds an alias to ~/.bash_aliases.
 # ------------------------------------------------
 function add_alias() {
