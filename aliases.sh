@@ -10,7 +10,6 @@
 # -------------------------------------------------------
 
 # -- shortcuts
-alias work="cd ~/Projects/bpgames"
 alias serve="python -m 'SimpleHTTPServer'"
 
 # -- bash
@@ -23,7 +22,7 @@ alias n='nautilus .'
 alias tmux="tmux -2"
 
 alias ~='cd ~'
-alias -- -='cd -'
+alias cl='cd -'
 alias ..='cd ..'
 alias ...='cd ../..';
 alias ....='cd ../../..'
