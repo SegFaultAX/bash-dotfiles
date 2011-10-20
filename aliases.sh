@@ -47,14 +47,12 @@ fi
 # ------------------------------------------------
 function mkd() {
   if [ -n "$1" ]; then
-    mkdir $1
+    mkdir -p $1
     cd $1
-    la
   else
-    echo "Usage: mkd <directory name>"
+    echo "Usage: mkd <directory_name>"
   fi
 }
-
 
 # Adds an alias to ~/.bash_aliases.
 # ------------------------------------------------
