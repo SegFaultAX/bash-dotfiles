@@ -1,5 +1,6 @@
 # -------------------------------------------------------
-# Author: Nathan Broadbent
+# Original Author: Nathan Broadbent
+# Modified By: Michael-Keith Bernard
 # Source: https://github.com/ndbroadbent/ubuntu_config
 # Retrieved: Oct 19, 2011
 # -------------------------------------------------------
