@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-# -------------------------------------------------------
-# Author: Nathan Broadbent
-# Source: https://github.com/ndbroadbent/ubuntu_config
-# Retrieved: Oct 19, 2011
-# -------------------------------------------------------
-
 echo "== Installing ~/.bashrc & other related dot files..."
 this_dir=$(pwd)
 
